@@ -61,7 +61,7 @@ LOGO_PATH = _find_logo()
 # ─────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Asset Accountability System",
+    page_title="Courier Asset Accountability System",
     layout="centered",
 )
 
@@ -1220,7 +1220,7 @@ def render_header():
     st.markdown(f"""
     <div class="bmg-header">
       <div>
-        <div class="bmg-header-title">Asset Accountability System</div>
+        <div class="bmg-header-title">Courier Asset Accountability System</div>
         <div class="bmg-header-sub">Equipment Responsibility Form Generator</div>
       </div>
       {LOGO_HTML}
