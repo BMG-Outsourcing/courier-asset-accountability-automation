@@ -61,7 +61,7 @@ LOGO_PATH = _find_logo()
 # ─────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Asset Accountability System",
+    page_title="Courier Asset Accountability System",
     layout="centered",
 )
 
