@@ -61,7 +61,7 @@ LOGO_PATH = _find_logo()
 # ─────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Courier Asset Accountability System",
+    page_title="Asset Accountability System",
     layout="centered",
 )
 
@@ -1842,7 +1842,7 @@ def main():
     c4.metric("On This Form",  f"{len(sorted_rows):,}")
 
     st.markdown(
-        '<div class="bmg-footer">BMG Outsourcing, Inc. &nbsp;·&nbsp; Asset Accountability System</div>',
+        '<div class="bmg-footer">BMG Outsourcing, Inc. &nbsp;·&nbsp; Courier Asset Accountability System</div>',
         unsafe_allow_html=True,
     )
 
