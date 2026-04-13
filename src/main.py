@@ -28,7 +28,7 @@ import streamlit as st
 TEMPLATE_NAME = "Equipment_Responsibility_Form.dotx"
 
 # Predefined CSV path — auto-loaded on startup
-PREDEFINED_CSV_PATH = Path(r"C:\Users\Ac - IT Intern\asset-accountability-system - Copy\templates\Hardware & Software Assets.csv")
+PREDEFINED_CSV_PATH = Path("templates/Hardware & Software Assets.csv")
 
 def _find_template(filename: str) -> Path | None:
     candidates = [
